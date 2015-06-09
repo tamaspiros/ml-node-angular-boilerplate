@@ -1,0 +1,19 @@
+{
+  "name": "ml-node-angular-boilerplate",
+  "version": "1.0.0",
+  "authors": [
+    "Tamas Piros <me@tamas.io>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0"
+  }
+}

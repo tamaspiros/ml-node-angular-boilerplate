@@ -1,0 +1,17 @@
+{
+  "name": "ml-node-angular-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "express": "^4.12.4",
+    "marklogic": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tamas Piros",
+  "license": "MIT"
+}
