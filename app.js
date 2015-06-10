@@ -15,9 +15,9 @@ app.use('/public', express.static(__dirname + '/public'));
 app.set('views', __dirname + '/');
 app.engine('html', require('ejs').renderFile);
 
-function indexRoute(req, res) {
+var indexRoute = function(req, res) {
   res.render('index.html');
-}
+};
 
 router.route('/').get(indexRoute);
 
