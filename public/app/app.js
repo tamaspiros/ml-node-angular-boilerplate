@@ -1,18 +1,20 @@
 angular
 .module('myApp', ['ngRoute'])
 .config(config)
-.controller('MainCtrl', MainCtrl);
+.controller('MainController', MainController);
+
+config.$inject = ['$routeProvider'];
 
 function config($routeProvider) {
   $routeProvider
     .when('/', {
-      templateUrl: 'partials/main.html',
-      controller: MainCtrl,
+      templateUrl: '/public/app/main.html',
+      controller: MainController,
       controllerAs: 'vm'
     });
 }
 
-function MainCtrl() {
+function MainController() {
   var vm = this;
   this.message = 'Hello world!';
 }
