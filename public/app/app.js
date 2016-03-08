@@ -16,5 +16,5 @@ function config($routeProvider) {
 
 function MainController() {
   var vm = this;
-  this.message = 'Hello world!';
+  vm.message = 'Hello world!';
 }
